@@ -1,0 +1,101 @@
+.container {
+  padding: 1vw;
+}
+.header {
+  color: #fe0000;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.slideImage {
+  width: 100%;
+}
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.arwContainer {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  bottom: 3vw;
+}
+
+.arwImage {
+  width: 5vw;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    padding-bottom: 5vw;
+  }
+  .header {
+    font-size: 2.8vw;
+  }
+  .arwContainer {
+    gap: 3vw;
+    bottom: 2vw;
+  }
+
+  .arwImage {
+    width: 4vw;
+    cursor: pointer;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 1vw 3vw;
+    padding-bottom: 4vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .header {
+    font-size: 2.4vw;
+  }
+  .arwContainer {
+    gap: 3vw;
+    bottom: 2vw;
+  }
+
+  .arwImage {
+    width: 3.5vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .arwContainer {
+    gap: 3vw;
+    bottom: 2vw;
+  }
+
+  .arwImage {
+    width: 3.5vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

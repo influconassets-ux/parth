@@ -1,0 +1,106 @@
+.wrapper {
+  background-color: #002992;
+  color: white;
+  padding: 3vw 0;
+  border-radius: 1vw;
+}
+
+.header {
+  font-size: 5.5vw;
+  padding: 0 1.5vw;
+}
+.list {
+  list-style: none;
+  padding: 1vw;
+  font-size: 2.6vw;
+  border-right: 2px solid rgba(255, 255, 255, 0);
+}
+.list.active {
+  background-color: white;
+  color: #002992;
+  border-right: 2px solid red;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .header {
+    font-size: 4.5vw;
+    padding: 0 1.5vw;
+  }
+  .list {
+    padding: 1vw;
+    font-size: 2vw;
+    border-right: 2px solid rgba(255, 255, 255, 0);
+  }
+  .list.active {
+    background-color: white;
+    color: #002992;
+    border-right: 2px solid red;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .header {
+    font-size: 3.5vw;
+    padding: 0 2.7vw;
+  }
+  .list {
+    padding: 1vw;
+    font-size: 1.6vw;
+    padding-left: 3vw;
+    border-right: 3px solid rgba(255, 255, 255, 0);
+  }
+  .list.active {
+    background-color: white;
+    border-right: 3px solid red;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .header {
+    font-size: 3vw;
+    padding: 0 2.7vw;
+  }
+  .list {
+    padding: 1vw;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    border-right: 3px solid rgba(255, 255, 255, 0);
+  }
+  .list.active {
+    background-color: white;
+    border-right: 3px solid red;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .header {
+    font-size: 2.7vw;
+    padding: 0 2.7vw;
+  }
+  .list {
+    padding: 1vw;
+    font-size: 1.2vw;
+    padding-left: 3vw;
+    border-right: 4px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+  }
+  .list.active {
+    border-right: 4px solid red;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

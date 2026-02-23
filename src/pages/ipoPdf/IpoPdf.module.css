@@ -1,0 +1,156 @@
+.dwnContainer {
+  padding-bottom: 20vw;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2vw;
+  background: #002992;
+  padding: 2vw;
+  gap: 2vw;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.dwnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7vw;
+  gap: 5vw;
+  flex-wrap: wrap;
+}
+.dwnIcon {
+  width: 7vw;
+  animation: bounceTwice 1.8s ease-in-out infinite;
+}
+.btnTxt {
+  color: #fff;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+.btn:hover {
+  scale: 1.1;
+  background: #0538b8;
+}
+
+@keyframes bounceTwice {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-0.7vw);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-0.3vw);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0); /* pause at end */
+  }
+}
+.container {
+  position: relative;
+}
+
+.navWrapper {
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+/* Start out absolute */
+.absolute {
+  position: absolute;
+  top: 2.3vw;
+}
+
+/* Become sticky once the Hero top hits the viewport top */
+.fixed {
+  position: fixed;
+  top: 1vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  .btn {
+    border-radius: 1.2vw;
+    padding: 1.6vw;
+    gap: 1vw;
+  }
+  .dwnContainer {
+    padding-top: 7vw;
+  }
+  .dwnIcon {
+    width: 7vw;
+  }
+  .btnTxt {
+    font-size: 2.6vw;
+    font-weight: 600;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .btn {
+    border-radius: 1.2vw;
+    padding: 1.6vw;
+    gap: 1vw;
+  }
+  .dwnContainer {
+    padding-top: 7vw;
+    gap: 4vw;
+  }
+  .dwnIcon {
+    width: 4vw;
+  }
+  .btnTxt {
+    font-size: 1.7vw;
+    font-weight: 600;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .btn {
+    border-radius: 1.2vw;
+    padding: 1.3vw;
+    gap: 1vw;
+  }
+  .dwnContainer {
+    padding-top: 7vw;
+    gap: 3vw;
+  }
+  .dwnIcon {
+    width: 3vw;
+  }
+  .btnTxt {
+    font-size: 1.3vw;
+    font-weight: 600;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

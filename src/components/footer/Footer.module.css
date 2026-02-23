@@ -1,0 +1,230 @@
+.container {
+  /* background: #002992; */
+  padding: 3vw;
+  border-top: 0.5px solid black;
+  /* background: linear-gradient(135deg, #ffffff, #e3f2ff, #ffeaea); */
+  background: #e3f2ff;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.leftWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #000 0%, #002482 51.79%, #002992 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subHeader {
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #000 0%, #002482 51.79%, #002992 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0vw;
+}
+.logoImage {
+  width: 7vw;
+}
+
+.item {
+  font-family: "Geist", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1.7vw;
+  color: #002992;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vw;
+}
+.addWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.7vw;
+}
+.addContainer,
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vw;
+  margin-top: 3vw;
+  padding-left: 8vw;
+}
+.addIcon {
+  color: #002992;
+  font-size: 1.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addText {
+  font-weight: 600;
+  font-size: 1.4vw;
+  color: #002992;
+}
+.socialHeader {
+  font-weight: 600;
+  font-size: 1.8vw;
+  color: #002992;
+}
+.socialWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.socialIcon {
+  font-size: 3vw;
+  color: #002992;
+}
+
+.resTxt {
+  font-weight: 600;
+  font-size: 1vw;
+  color: #002992;
+  text-align: center;
+  margin-top: 2vw;
+  position: relative;
+}
+.powText {
+  position: absolute;
+  right: 0;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .addWrapper {
+    gap: 0.7vw;
+  }
+  .addContainer,
+  .socialContainer {
+    gap: 0.8vw;
+    margin-top: 3vw;
+    padding-left: 8vw;
+  }
+  .addIcon {
+    font-size: 2.2vw;
+  }
+  .addText {
+    font-size: 1.2vw;
+  }
+  .socialHeader {
+    font-size: 1.9vw;
+  }
+  .socialWrapper {
+    gap: 2vw;
+  }
+  .socialIcon {
+    font-size: 2.8vw;
+    cursor: pointer;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .item {
+    font-size: 1.5vw;
+  }
+  .header {
+    font-size: 2.5vw;
+  }
+  .logoImage {
+    width: 5vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .addWrapper {
+    gap: 0.7vw;
+  }
+  .addContainer,
+  .socialContainer {
+    gap: 0.8vw;
+    margin-top: 3vw;
+    padding-left: 5.8vw;
+  }
+  .addIcon {
+    font-size: 2.2vw;
+  }
+  .addText {
+    font-size: 1vw;
+  }
+  .socialHeader {
+    font-size: 1.7vw;
+  }
+  .socialWrapper {
+    gap: 1.8vw;
+  }
+  .socialIcon {
+    font-size: 2.6vw;
+    cursor: pointer;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .item {
+    font-size: 1.2vw;
+  }
+  .addWrapper {
+    gap: 0.7vw;
+  }
+  .addContainer,
+  .socialContainer {
+    gap: 0.8vw;
+    margin-top: 2vw;
+    padding-left: 5.8vw;
+  }
+  .addIcon {
+    font-size: 1.7vw;
+  }
+  .addText {
+    font-size: 0.8vw;
+  }
+  .socialHeader {
+    font-size: 1.5vw;
+  }
+  .socialWrapper {
+    gap: 1.3vw;
+  }
+  .socialIcon {
+    font-size: 2.2vw;
+    cursor: pointer;
+  }
+  .resTxt {
+    font-weight: 600;
+    font-size: 0.8vw;
+
+    margin-top: 2vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

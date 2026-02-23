@@ -1,0 +1,281 @@
+.container {
+  padding-top: 3vw;
+  padding: 3vw 3vw;
+  padding-bottom: 6vw;
+  width: 100%;
+  position: relative;
+}
+.ltlayout {
+  position: absolute;
+  top: -10vw;
+  z-index: -1;
+  left: 0;
+}
+.rtlayout {
+  position: absolute;
+  bottom: -5vw;
+  z-index: -1;
+  right: 0;
+}
+.layoutImage {
+  width: 20vw;
+}
+.header {
+  color: #fe0000;
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 3vw;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 6vw;
+  position: relative;
+  z-index: 2;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  gap: 4vw;
+}
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  gap: 4vw;
+}
+.cardAbs {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(90deg, #f0f4f5 0%, #002992 100%);
+  border-radius: 1.4vw;
+  z-index: -2;
+}
+.cardImage {
+  width: 100%;
+}
+.cardLeft {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vw;
+  border-radius: 1vw;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cardRight {
+  width: 40%;
+  height: 40vw;
+  overflow-y: hidden;
+  background: #fff;
+  box-shadow: 0px 16px 44px 0px rgba(39, 45, 100, 0.1);
+  padding: 3vw;
+}
+.name {
+  color: #002992;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.des {
+  color: #000;
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.listContainer {
+  margin-top: 3vw;
+  color: #000;
+  font-size: 1.8vw;
+  font-weight: 400;
+  list-style: disc;
+  padding: 0 2vw;
+  padding-right: 3vw;
+  padding-bottom: 2vw;
+  height: 22vw;
+  overflow-y: auto;
+}
+
+.listContainer::-webkit-scrollbar {
+  width: 2px; /* or your desired width */
+}
+
+.listContainer::-webkit-scrollbar-track {
+  background: #e2eaf7; /* optional */
+}
+
+.listContainer::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* or any color you prefer */
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 3vw;
+    padding: 3vw 3vw;
+    padding-bottom: 6vw;
+  }
+  .header {
+    font-size: 3vw;
+
+    margin-bottom: 3vw;
+  }
+
+  .cardContainer {
+    gap: 6vw;
+  }
+  .card {
+    gap: 4vw;
+  }
+  .cardAbs {
+    height: 80%;
+
+    border-radius: 1.4vw;
+    z-index: -2;
+  }
+  .cardImage {
+    width: 100%;
+  }
+  .cardLeft {
+    width: 30%;
+
+    height: 40vw;
+    border-radius: 1vw;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .cardRight {
+    width: 40%;
+    height: 40vw;
+    padding: 3vw;
+  }
+  .name {
+    font-size: 2.1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .des {
+    color: #000;
+    font-size: 1.7vw;
+    font-weight: 400;
+  }
+
+  .listContainer {
+    margin-top: 2vw;
+    color: #000;
+    font-size: 1.5vw;
+    font-weight: 400;
+    list-style: disc;
+    padding: 0 2vw;
+    padding-right: 3vw;
+    padding-bottom: 2vw;
+    height: 24vw;
+    overflow-y: auto;
+  }
+
+  .listContainer::-webkit-scrollbar {
+    width: 2px; /* or your desired width */
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding-top: 3vw;
+    padding: 3vw 3vw;
+    padding-bottom: 6vw;
+  }
+  .header {
+    font-size: 2.9vw;
+
+    margin-bottom: 3vw;
+  }
+
+  .cardContainer {
+    gap: 6vw;
+  }
+  .cardWrapper {
+    gap: 4vw;
+  }
+  .cardAbs {
+    height: 80%;
+
+    border-radius: 1.4vw;
+    z-index: -2;
+  }
+  .cardImage {
+    width: 100%;
+  }
+  .cardLeft {
+    width: 30%;
+
+    height: 40vw;
+    border-radius: 1vw;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .cardRight {
+    width: 40%;
+    height: 40vw;
+    padding: 3vw;
+  }
+  .name {
+    font-size: 1.9vw;
+  }
+  .des {
+    font-size: 1.5vw;
+  }
+
+  .listContainer {
+    margin-top: 2vw;
+
+    font-size: 1.3vw;
+
+    padding: 0 2vw;
+    padding-right: 3vw;
+    padding-bottom: 2vw;
+    height: 24vw;
+  }
+
+  .listContainer::-webkit-scrollbar {
+    width: 3px; /* or your desired width */
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

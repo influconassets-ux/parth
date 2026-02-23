@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+.ltlayout {
+  position: absolute;
+  left: 0;
+  top: -10vw;
+  z-index: -1;
+}
+.layoutImage {
+  width: 20vw;
+}
+
+.rtLayout {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.ltImage {
+  width: 20vw;
+}

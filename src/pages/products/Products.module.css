@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+}
+.rtLayout {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+}
+.ltImage {
+  width: 25vw;
+}
+.mainContainer {
+  padding-top: 3vw;
+  padding-bottom: 10vw;
+}
+.botHeader {
+  color: #fe0000;
+  font-family: "Geist", sans-serif;
+  font-size: 3.7vw;
+  font-weight: 700;
+  text-align: center;
+}
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.container {
+  position: relative;
+}
+
+.navWrapper {
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+/* Start out absolute */
+.absolute {
+  position: absolute;
+  top: 2.3vw;
+}
+
+/* Become sticky once the Hero top hits the viewport top */
+.fixed {
+  position: fixed;
+  top: 1vw;
+}

@@ -1,0 +1,237 @@
+.botContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vw;
+  gap: 3vw;
+  padding-bottom: 30vw;
+}
+.ctText {
+  color: #000;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.phoneNumber {
+  text-shadow: 3px 3px 3px #fe000040;
+}
+.ctText span {
+  color: #fe0000;
+  font-weight: 700;
+}
+.content {
+  color: #000;
+
+  font-family: "Geist", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+.content span {
+  font-weight: 700;
+}
+.formContainer {
+  border-radius: 8px;
+  background: var(
+    --Royal-Blue,
+    linear-gradient(180deg, #0e3fbe 0%, #092777 99.17%)
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 3vw;
+}
+.topInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField {
+  width: 48%;
+  color: var(--Text-Secondary, #808080);
+  font-family: "Geist", sans-serif;
+  font-size: 2.6vw;
+  font-weight: 400;
+  padding: 1vw;
+  border-radius: 1.5vw;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+  border: none;
+}
+
+.msgText {
+  width: 100%;
+  resize: none;
+  height: 20vw;
+  color: var(--Text-Secondary, #808080);
+  font-family: "Geist", sans-serif;
+  font-size: 2.6vw;
+  font-weight: 400;
+  padding: 1vw;
+  border-radius: 1.5vw;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+  border: none;
+}
+
+.btn {
+  color: var(--Text-Primary, #262626);
+  text-shadow: 3px 3px 3px #26262640;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7vw;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1vw;
+  border-radius: 1vw;
+  background: #4fc65a;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+}
+
+.navWrapper {
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+/* Start out absolute */
+.absolute {
+  position: absolute;
+  top: 2.3vw;
+}
+
+/* Become sticky once the Hero top hits the viewport top */
+.fixed {
+  position: fixed;
+  top: 1vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .content {
+    font-size: 2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .botContainer {
+    padding-top: 4vw;
+    gap: 3vw;
+    padding-bottom: 30vw;
+  }
+  .ctText {
+    font-size: 3.5vw;
+    font-weight: 400;
+  }
+
+  .formContainer {
+    border-radius: 8px;
+
+    padding: 2vw;
+
+    width: 48%;
+    gap: 3vw;
+  }
+  .topInput {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputField {
+    font-size: 1.7vw;
+    padding: 1vw;
+    border-radius: 1.5vw;
+  }
+
+  .msgText {
+    font-size: 1.7vw;
+
+    height: 20vw;
+
+    padding: 1vw;
+    border-radius: 1.5vw;
+  }
+
+  .btn {
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 1vw;
+  }
+  .content {
+    font-size: 1.5vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .botContainer {
+    padding-top: 4vw;
+    gap: 3vw;
+    padding-bottom: 20vw;
+  }
+  .ctText {
+    font-size: 2.7vw;
+    font-weight: 400;
+  }
+
+  .formContainer {
+    border-radius: 8px;
+
+    padding: 2vw;
+
+    width: 38%;
+    gap: 3vw;
+  }
+
+  .inputField {
+    font-size: 1.2vw;
+    padding: 1vw;
+    border-radius: 1.3vw;
+  }
+
+  .msgText {
+    font-size: 1.2vw;
+
+    height: 12vw;
+
+    padding: 1vw;
+    border-radius: 1.2vw;
+  }
+
+  .btn {
+    font-size: 1.4vw;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+  }
+  .content {
+    font-size: 1.1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,102 @@
+.cardContainer {
+  width: 100%;
+  padding: 3vw 2vw 20vw 2vw;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(22%, 22%));
+  justify-content: space-between;
+  row-gap: 2vw;
+}
+.cardText {
+  color: #fff;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 1vw;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #002992;
+  height: 9vw;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  scale: 1.1;
+  background: #0538b8;
+}
+
+.container {
+  position: relative;
+}
+
+.navWrapper {
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+/* Start out absolute */
+.absolute {
+  position: absolute;
+  top: 2.3vw;
+}
+
+/* Become sticky once the Hero top hits the viewport top */
+.fixed {
+  position: fixed;
+  top: 1vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .cardContainer {
+    padding: 3vw 3vw 20vw 3vw;
+    grid-template-columns: repeat(6, minmax(15.5%, 15.5%));
+    row-gap: 2vw;
+  }
+  .cardText {
+    font-size: 1.4vw;
+  }
+  .card {
+    border-radius: 0.7vw;
+    padding: 1vw;
+    height: 6.5vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .card {
+    border-radius: 0.7vw;
+    padding: 0.8vw;
+    height: 6.5vw;
+  }
+  .cardText {
+    font-size: 1.2vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 1vw;
+  padding-bottom: 7vw;
+  position: relative;
+}
+.ltlayout {
+  position: absolute;
+  left: 0;
+  top: -4vw;
+  z-index: -1;
+}
+.layoutImage {
+  width: 17vw;
+}
+.rtLayout {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+}
+.ltImage {
+  width: 25vw;
+}
+.header {
+  color: #fe0000;
+
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+.subheader {
+  color: #002992;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 3.2vw;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1vw;
+}
+.subheader span {
+  font-weight: 700;
+}
+.lcontent {
+  color: #272727;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 1.8vw;
+  margin-bottom: 2vw;
+  font-weight: 400;
+  margin-top: 1vw;
+  width: 80%;
+}
+.lcontent span {
+  font-weight: 700;
+}
+
+.teamImage {
+  width: 86%;
+  border-radius: 2vw;
+}
+
+@media only screen and (min-width: 640px) {
+  .teamImage:hover {
+    box-shadow: 4px 4px 4px 2px #27272740;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .header {
+    font-size: 2.8vw;
+  }
+  .subheader {
+    font-size: 2.6vw;
+  }
+  .lcontent {
+    font-size: 1.6vw;
+    margin-bottom: 2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 4vw 3vw;
+    padding-bottom: 9vw;
+  }
+  .teamImage {
+    width: 90%;
+    border-radius: 2vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .lcontent {
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+  }
+  .header {
+    font-size: 2.4vw;
+  }
+  .subheader {
+    font-size: 2.2vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .lcontent {
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    width: 60%;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,139 @@
+.container {
+  padding: 1vw;
+  height: 35vw;
+  position: relative;
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 33, 33, 0.212);
+}
+.wrapper {
+  /* background-image: url("/images/heroImage.jpeg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2vw;
+  position: relative;
+  padding-top: 2vw;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.item {
+  color: #fff;
+  font-family: "Geist", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1.3vw;
+  padding-bottom: 0.6vw;
+  border: 2px solid black; /* Default border */
+  border-color: transparent;
+}
+.heroNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  text-align: center;
+  width: 70%;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  z-index: 2;
+  position: relative;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    padding: 1vw;
+    /* height: 55vw; */
+  }
+  .wrapper {
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+  }
+
+  .item {
+    font-size: 1.3vw;
+  }
+  .heroNav {
+    gap: 1vw;
+  }
+
+  .mainContainer {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 1vw 3vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    height: 32vw;
+  }
+  .wrapper {
+    border-radius: 2vw;
+
+    padding-top: 2vw;
+  }
+
+  .item {
+    font-size: 1.1vw;
+  }
+  .heroNav {
+    gap: 1vw;
+  }
+
+  .mainContainer {
+    width: 100%;
+    height: 80%;
+    gap: 0vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

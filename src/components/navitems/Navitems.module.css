@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+  top: 0vw;
+  z-index: 5;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.item {
+  color: #fff;
+  font-family: "Geist", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1.3vw;
+  padding-bottom: 0.1px;
+  cursor: pointer;
+}
+.heroNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 1vw;
+  top: 2vw;
+  top: 0;
+  padding: 1vw;
+  transition: background 700ms ease, border-radius 200ms ease;
+}
+.heroNav.changeBg {
+  background: rgba(12, 12, 12, 0.4); /* translucent dark */
+  backdrop-filter: blur(10px); /* frosted glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 200ms ease;
+  border-radius: 2vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .item {
+    font-size: 1.3vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .item {
+    font-size: 1.1vw;
+    padding-bottom: 0.2vw;
+  }
+  .heroNav {
+    gap: 1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

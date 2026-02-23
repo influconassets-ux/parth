@@ -1,0 +1,198 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  padding-top: 4vw;
+}
+.left {
+  width: 28%;
+}
+.right {
+  width: 60%;
+}
+
+.leftImage {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3vw;
+}
+
+.imageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  height: 6.3vw;
+  border-radius: 2vw;
+  background: linear-gradient(90deg, #ff0c0c 0%, #002992 100%);
+}
+
+.rightHeader {
+  color: #002992;
+  font-family: "Geist", sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.content {
+  color: #000;
+  font-family: "Geist", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+.listContainer {
+  padding-left: 3vw;
+}
+
+.ulheader {
+  margin-top: 1.6vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    gap: 2vw;
+    padding-top: 4vw;
+  }
+  .left {
+    width: 24%;
+  }
+  .right {
+    width: 60%;
+  }
+
+  .leftImage {
+    width: 100%;
+    height: 28vw;
+
+    border-radius: 2.5vw;
+  }
+
+  .imageHeader {
+    font-size: 2.5vw;
+    height: 5.5vw;
+    border-radius: 1.7vw;
+  }
+
+  .rightHeader {
+    font-size: 2.5vw;
+  }
+
+  .content {
+    color: #000;
+    font-family: "Geist", sans-serif;
+    font-size: 1.9vw;
+    font-weight: 300;
+  }
+
+  .listContainer {
+    padding-left: 3vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    gap: 2vw;
+    padding: 0;
+  }
+  .left {
+    width: 22%;
+  }
+  .right {
+    width: 62%;
+  }
+
+  .leftImage {
+    width: 100%;
+    height: 26vw;
+
+    border-radius: 2.2vw;
+  }
+
+  .imageHeader {
+    font-size: 1.7vw;
+    height: 5vw;
+    padding: 0 1vw;
+    border-radius: 1.5vw;
+  }
+
+  .rightHeader {
+    font-size: 2.2vw;
+  }
+
+  .content {
+    font-size: 1.4vw;
+    font-weight: 300;
+  }
+
+  .listContainer {
+    padding-left: 3vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    gap: 2vw;
+  }
+  .left {
+    width: 18%;
+  }
+  .right {
+    width: 55%;
+  }
+
+  .leftImage {
+    width: 100%;
+    height: 20vw;
+
+    border-radius: 2.2vw;
+  }
+
+  .imageHeader {
+    font-size: 1.3vw;
+    height: 4vw;
+    padding: 0 1vw;
+    border-radius: 1.5vw;
+  }
+
+  .rightHeader {
+    font-size: 1.8vw;
+  }
+
+  .content {
+    font-size: 1.1vw;
+    font-weight: 300;
+  }
+
+  .listContainer {
+    padding-left: 3vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

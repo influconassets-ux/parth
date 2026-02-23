@@ -1,0 +1,247 @@
+.container {
+  padding: 1vw;
+  padding-bottom: 4vw;
+  position: relative;
+}
+.ltlayout {
+  position: absolute;
+  left: 0;
+  bottom: -20vw;
+}
+.layoutImage {
+  width: 20vw;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 100%;
+  gap: 2vw;
+  z-index: 4;
+  position: relative;
+}
+.left {
+  width: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  position: relative;
+  width: 70%;
+}
+.leftWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 0.7vw;
+}
+
+.gpwImage,
+.gpwImageMob {
+  width: 10vw;
+  height: 16vw;
+}
+.gpwImage {
+  display: none;
+}
+.ytImage {
+  position: absolute;
+  width: 6vw;
+}
+.right {
+  width: 70%;
+}
+.leftImage {
+  width: 100%;
+  border-radius: 2vw;
+
+  object-fit: cover;
+  border-radius: 2vw;
+}
+
+.header {
+  color: rgba(0, 0, 0, 0.95);
+  font-family: "Geist", sans-serif;
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+.header span {
+  color: #002992;
+}
+
+.subHeader {
+  color: rgba(0, 0, 0, 0.95);
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+  font-size: 2.6vw;
+}
+.content {
+  color: #000;
+  font-family: "Geist", sans-serif;
+
+  font-weight: 300;
+  font-size: 1.8vw;
+  line-height: normal;
+  margin-top: 1vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    padding: 1vw;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 0;
+  }
+  .left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .ytImage {
+    position: absolute;
+    width: 6vw;
+  }
+  .leftImage {
+    height: 22vw;
+  }
+  .right {
+    width: 42%;
+  }
+  .leftImage {
+    width: 100%;
+    border-radius: 1vw;
+
+    object-fit: cover;
+  }
+
+  .header {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: "Geist", sans-serif;
+    font-size: 2.7vw;
+    font-weight: 500;
+  }
+  .header span {
+    color: #002992;
+  }
+
+  .subHeader {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    font-size: 1.8vw;
+  }
+  .content {
+    color: #000;
+    font-family: "Geist", sans-serif;
+
+    font-weight: 300;
+    font-size: 1.3vw;
+    line-height: normal;
+    margin-top: 1vw;
+  }
+  .gpwImage {
+    display: block;
+    width: 10%;
+    height: 14vw;
+  }
+  .gpwImageMob {
+    display: none;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 2vw 3vw;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    /* width: 55%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  .ytImage {
+    position: absolute;
+    width: 6vw;
+  }
+  .right {
+    width: 43%;
+  }
+  .leftImage {
+    width: 100%;
+    border-radius: 1vw;
+    object-fit: cover;
+    height: 26vw;
+  }
+
+  .header {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: "Geist", sans-serif;
+    font-size: 2.3vw;
+    font-weight: 500;
+  }
+
+  .subHeader {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    font-size: 1.6vw;
+  }
+  .content {
+    font-size: 1.1vw;
+    margin-top: 1vw;
+  }
+  .gpwImage {
+    width: 8vw;
+    height: auto;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .gpwImage {
+    width: 6vw;
+    height: auto;
+  }
+  .left {
+    width: 48%;
+  }
+  .leftImage {
+    height: 27vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .gpwImage {
+    width: 5vw;
+    height: auto;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

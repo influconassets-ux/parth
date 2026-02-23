@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+.navWrapper {
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+/* Start out absolute */
+.absolute {
+  position: absolute;
+  top: 2.3vw;
+}
+
+/* Become sticky once the Hero top hits the viewport top */
+.fixed {
+  position: fixed;
+  top: 1vw;
+}

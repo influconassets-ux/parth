@@ -1,0 +1,219 @@
+.container {
+  padding: 2vw;
+  padding-bottom: 10vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rtLayout {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.rtLImage {
+  width: 20vw;
+}
+.header {
+  color: #fe0000;
+
+  text-align: center;
+  font-family: "Geist", sans-serif;
+  font-size: 3.5vw;
+  font-weight: 700;
+  margin-bottom: 3vw;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.leftImage {
+  width: 100%;
+  border-radius: 2vw;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 47%;
+}
+
+.imageHeader {
+  color: #fff;
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  font-size: 2vw;
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3vw;
+  background: linear-gradient(90deg, #ff0c0c 0%, #002992 100%);
+  padding: 0.8vw 1.4vw;
+}
+
+.rightHeader {
+  color: #002992;
+
+  font-family: "Geist", sans-serif;
+  font-size: 3vw;
+
+  font-weight: 600;
+}
+
+.rightContent {
+  color: #000;
+  font-family: "Geist", sans-serif;
+  font-size: 2.4vw;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .header {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+  }
+  .cardContainer {
+    gap: 6vw;
+  }
+
+  .leftImage {
+    border-radius: 2vw;
+  }
+  .card {
+    justify-content: center;
+    gap: 2vw;
+  }
+  .left {
+    width: 47%;
+  }
+  .right {
+    width: 45%;
+  }
+
+  .imageHeader {
+    font-size: 1.8vw;
+    height: 8vw;
+
+    border-radius: 3vw;
+
+    padding: 0.8vw 1.4vw;
+  }
+
+  .rightHeader {
+    font-size: 2.5vw;
+  }
+
+  .rightContent {
+    font-size: 2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .header {
+    font-size: 2.7vw;
+    margin-bottom: 3vw;
+  }
+  .cardContainer {
+    gap: 6vw;
+  }
+
+  .leftImage {
+    border-radius: 2vw;
+  }
+  .card {
+    justify-content: center;
+    gap: 2vw;
+  }
+  .left {
+    width: 44%;
+  }
+  .right {
+    width: 40%;
+  }
+
+  .imageHeader {
+    font-size: 1.4vw;
+    height: 6.5vw;
+
+    border-radius: 3vw;
+
+    padding: 0.5vw 2vw;
+  }
+
+  .rightHeader {
+    font-size: 2vw;
+  }
+
+  .rightContent {
+    font-size: 1.3vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .header {
+    font-size: 2.7vw;
+    margin-bottom: 3vw;
+  }
+  .cardContainer {
+    gap: 4vw;
+  }
+
+  .leftImage {
+    border-radius: 2vw;
+  }
+  .card {
+    justify-content: center;
+    gap: 2vw;
+  }
+  .left {
+    width: 36%;
+  }
+  .right {
+    width: 40%;
+  }
+
+  .imageHeader {
+    font-size: 1.2vw;
+    height: 5.5vw;
+
+    border-radius: 2.5vw;
+
+    padding: 0.5vw 2vw;
+  }
+
+  .rightHeader {
+    font-size: 2vw;
+  }
+
+  .rightContent {
+    font-size: 1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}
